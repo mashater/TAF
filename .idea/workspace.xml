@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment="asd">
+    <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/allure-results/09dc7a4a-9ec1-4689-bb2c-414bcae18538-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0f806bc1-28df-48a7-83cf-e86c2624eb29-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3690740d-1a83-4a1c-82c5-40a43844d25c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3b6de866-bcdd-4ed0-bf86-6c43f810e9ed-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/7e293162-d457-40e5-938a-edbf1c902dc7-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/883e9b1b-a808-4f21-af93-6d6efeb2cf64-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/dfdaf27e-3d8a-48f9-8acd-3b8a6c303e2c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e645e629-737f-4c9b-827a-ccf05ba11180-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ec4d2954-cf93-4166-836e-f84757884169-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/configurations/ReadProperties.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/services/AdvancedDriver.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" afterDir="false" />
@@ -12,6 +21,15 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/tests/LaminateTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/tests/SmokeTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/configuration/ReadProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/AdvancedDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/BrowsersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/SimpleDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/FirstTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/LaminateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/SmokeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SimpleDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/SimpleDriver.java" afterDir="false" />
@@ -215,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650625001947</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=".">
+      <created>1650626145026</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650626145026</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +259,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
