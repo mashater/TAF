@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment="asd">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/configurations/ReadProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/AdvancedDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LaminateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SmokeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/SimpleDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/First.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/general.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/parallel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/param.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -78,17 +88,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/parallel.xml">
-    <configuration name="C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/general.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/general.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SmokeTest">
     <configuration name="C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/parallel.xml" />
@@ -132,13 +132,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmokeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SmokeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SmokeTest" />
         <item itemvalue="TestNG.RetryTest.flakyTest" />
         <item itemvalue="TestNG.RetryTest" />
         <item itemvalue="TestNG.C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/param.xml" />
         <item itemvalue="TestNG.C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/parallel.xml" />
-        <item itemvalue="TestNG.C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/general.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649873734599</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".">
+      <created>1650625001947</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650625001947</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
