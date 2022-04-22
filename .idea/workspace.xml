@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment="asd">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/main/java/configurations/ReadProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BasicLocatorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CssSelectorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/First.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/general.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/parallel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/param.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,7 +50,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Selenium_HW" />
+        <entry key="$PROJECT_DIR$" value="Selenium" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,10 +72,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -74,25 +86,25 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\m.terenya\IdeaProjects\TAF\src\test\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m.terenya\IdeaProjects\TAF\src\test\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/parallel.xml">
-    <configuration name="C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/general.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CssSelectorsTest">
+    <configuration name="BasicLocatorsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/general.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/parallel.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.BasicLocatorsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -103,6 +115,23 @@
       <module name="TAF" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/param.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CssSelectorsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CssSelectorsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -134,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CssSelectorsTest" />
+        <item itemvalue="TestNG.BasicLocatorsTest" />
         <item itemvalue="TestNG.RetryTest.flakyTest" />
         <item itemvalue="TestNG.RetryTest" />
         <item itemvalue="TestNG.C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/param.xml" />
-        <item itemvalue="TestNG.C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/parallel.xml" />
-        <item itemvalue="TestNG.C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/general.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +184,7 @@
       <workItem from="1649700725325" duration="2846000" />
       <workItem from="1649864899222" duration="7688000" />
       <workItem from="1649873049402" duration="931000" />
+      <workItem from="1650622487563" duration="2062000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1649872074694</created>
