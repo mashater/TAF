@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/main/java/configurations/ReadProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BasicLocatorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CssSelectorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/First.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestNG.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/general.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/parallel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/param.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,7 +36,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Selenium" />
+        <entry key="$PROJECT_DIR$" value="SeleniumHW" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -163,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CssSelectorsTest" />
-        <item itemvalue="TestNG.BasicLocatorsTest" />
         <item itemvalue="TestNG.RetryTest.flakyTest" />
         <item itemvalue="TestNG.RetryTest" />
+        <item itemvalue="TestNG.CssSelectorsTest" />
         <item itemvalue="TestNG.C:/Users/m.terenya/IdeaProjects/TAF/src/test/resources/param.xml" />
+        <item itemvalue="TestNG.BasicLocatorsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649873734599</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".">
+      <created>1650903308743</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650903308743</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +233,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+    <MESSAGE value="hw" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
