@@ -5,59 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment="hw">
-      <change afterPath="$PROJECT_DIR$/allure-results/04e5e540-3c80-48f6-950f-9bfc1da962f9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0914340a-585f-4850-bd45-8df865be1437-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/092d2586-c518-42e4-9321-b5433fe407dc-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0b3c00d3-eb9a-4ce4-8a44-58378b3eb169-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0d25db72-774d-4fdb-9a99-1f9463b698fc-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/11d2f998-79d2-4d76-bd8f-c48fadb9bdd0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/199c3954-4adf-430a-beba-7d4fcd26b7a0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1bbd2d76-78df-4d22-88cc-ea43487ca5ff-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1dd6002c-fcfe-4a60-9531-bda7feef6510-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/22a9f1ae-396f-4763-9412-357e729f4c84-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/263d0069-9bf5-45fa-a8ba-f586a8025521-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/30ec031d-1b6d-4aca-b079-1cb12cc7cba1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/397b25db-a471-419f-bca7-a75b441fdead-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/468b675f-b258-43b3-8b27-0811917b83a7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4703736a-ec51-4ba2-ba83-3271a9d576a7-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4a92672d-0b5f-442e-a4ff-9a9e4a94a31f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4ef5f746-53da-4294-8ada-54929059fa59-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/55bf76f4-64b5-4f4f-a5ba-92650c43d84e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5ca9af71-2351-4149-807f-cd8af546241e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5d6a5562-19a7-4b29-b395-05b9e4db5582-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6405526e-4b04-4f12-911b-80f3cd38ce4d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/65867790-ec23-4009-a8cc-7e1ae8b85302-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/66579a78-444e-49ae-9301-dfbc63363405-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6cbd6522-a0a8-4488-a72d-dbda60943a76-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/73b164a6-b901-4766-85ec-586ba4162b0a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/755ccd13-a315-4282-a1d3-9f0ce70865b5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7846ecf3-7145-4658-a0f7-5401716eab24-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7a527ce2-840e-49bf-a5c9-16876d7bcce4-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/82606a55-a183-4693-a1ff-0dc84c084d3c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8f4075a8-27d3-478e-b8e5-e9295670a9c2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9191ddbb-6076-4cc2-90df-65b88ca76a31-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9b822357-7de0-4259-8507-b87e44c3945b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a4b90824-d010-47c7-bedb-42a4a945792c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b468cb3d-e060-4bdd-a544-51916bc77668-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b6b37521-4e9b-4fce-a219-4796c65786ec-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c056b76a-97b3-415c-8efe-8a06d1ead212-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/caf58b90-a50f-4c33-8e61-073e7756cb3c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ccbd6d01-08bf-4741-8804-93c4f6ce797c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d59fa51d-8aed-4340-b1dd-3b03a31821ea-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d69fb44d-aeaf-4ac1-bb6c-e97bc867317b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d819af38-3810-4858-93a6-323419e9c18c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/dacabc99-f3e4-4b60-9530-b6fbf27163b5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/dd7ac79f-1db8-4233-859c-a01292fcc2c2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e0e3f740-2221-416e-92d3-988cca999aea-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e3f1b373-6c89-4d0c-9b20-f4faf3c3aafb-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ee5030ea-fd13-4e2f-b5f5-95883e7a7125-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f8501b74-3c9f-4849-a0f7-f52c8fdf9b7b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/fec18bf0-dc6b-4b28-87fb-0bd6443ffb98-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Homework_WarmFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/Homework_SmokeTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/Homework_WarmFloor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Homework_laminate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Homework.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -126,7 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Homework_WarmFloor">
+  <component name="RunManager" selected="TestNG.LaminateTest">
     <configuration name="Homework_SmokeTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
@@ -179,6 +129,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LaminateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LaminateTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LaminateTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
@@ -197,31 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeTest.validateIKTCalculation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SmokeTest" />
-      <option name="METHOD_NAME" value="validateIKTCalculation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LaminateTest" />
         <item itemvalue="TestNG.Homework_WarmFloor" />
         <item itemvalue="TestNG.Homework_SmokeTest2" />
         <item itemvalue="TestNG.Homework_SmokeTest2.validateSKF" />
         <item itemvalue="TestNG.LaminateTest.test" />
-        <item itemvalue="TestNG.SmokeTest.validateIKTCalculation" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650896322440</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hw">
+      <created>1650901209283</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650901209283</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
