@@ -1,0 +1,1 @@
+{"uuid":"263d0069-9bf5-45fa-a8ba-f586a8025521","name":"tests.Homework_WarmFloor.setUp","children":["9b822357-7de0-4259-8507-b87e44c3945b"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1650898494862,"stop":1650898501020}],"afters":[],"start":1650898494859,"stop":1650898501020}
