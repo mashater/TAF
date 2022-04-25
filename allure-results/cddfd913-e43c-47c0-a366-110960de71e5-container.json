@@ -1,0 +1,1 @@
+{"uuid":"cddfd913-e43c-47c0-a366-110960de71e5","name":"tests.Homework.setUp","children":["187a797e-e49a-4d0c-b263-e9b124fa7695"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1650887133960,"stop":1650887139619}],"afters":[],"start":1650887133957,"stop":1650887139620}
