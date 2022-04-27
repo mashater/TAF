@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment="hw">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Homework_laminate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Homework_laminate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configurations/ReadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configurations/ReadProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/AdvancedDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/AdvancedDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configuration/ReadProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/AdvancedDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/BrowsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/SimpleDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/FirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Homework_SmokeTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Homework_WarmFloor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LaminateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SmokeTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +82,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -76,7 +95,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Homework_laminate">
+  <component name="RunManager" selected="TestNG.Homework_WarmFloor">
     <configuration name="Homework_WarmFloor" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
@@ -166,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Homework_WarmFloor" />
         <item itemvalue="TestNG.Homework_laminate" />
         <item itemvalue="TestNG.Homework_laminate.kermifko" />
         <item itemvalue="TestNG.LaminateTest.test" />
         <item itemvalue="TestNG.LaminateTest" />
-        <item itemvalue="TestNG.Homework_WarmFloor" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +206,7 @@
       <workItem from="1649700725325" duration="2846000" />
       <workItem from="1649864899222" duration="7688000" />
       <workItem from="1649873049402" duration="931000" />
+      <workItem from="1651004902503" duration="5857000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1649872074694</created>
