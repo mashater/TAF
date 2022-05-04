@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment="./">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseEntities/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseEntities/BaseStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseEntities/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/ProjectsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/SideMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/TopMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/NavigationStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MenuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestCaseTests.java" afterDir="false" />
+    <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,6 +183,7 @@
       <workItem from="1649864899222" duration="7688000" />
       <workItem from="1649873049402" duration="931000" />
       <workItem from="1650622487563" duration="2062000" />
+      <workItem from="1651677754114" duration="1953000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1649872074694</created>
@@ -270,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650913257549</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=".">
+      <created>1651086440430</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1651086440430</updated>
+    </task>
+    <task id="LOCAL-00012" summary=".">
+      <created>1651086482500</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651086482500</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,8 +289,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asd" />
     <MESSAGE value="hw" />
-    <MESSAGE value="." />
     <MESSAGE value="./" />
-    <option name="LAST_COMMIT_MESSAGE" value="./" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
