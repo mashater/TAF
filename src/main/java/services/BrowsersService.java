@@ -49,7 +49,7 @@ public class BrowsersService {
         driver.manage().deleteAllCookies();
         //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         //Duration duration = Duration.ofSeconds(20);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20)); //неявные ожидания
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0)); //неявные ожидания
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
         driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(60));
 

@@ -5,8 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/WaitsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ActionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WaitsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/106e0209-6456-4314-bff4-da4cdf9ff218-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/106e0209-6456-4314-bff4-da4cdf9ff218-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/13570503-56e1-48cb-a481-0497c7f2c88d-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/13570503-56e1-48cb-a481-0497c7f2c88d-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/14ef885b-924c-4425-813f-09ec6a4cd718-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/14ef885b-924c-4425-813f-09ec6a4cd718-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/76e3c77d-c097-462c-8ccc-142f5c51cedf-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/76e3c77d-c097-462c-8ccc-142f5c51cedf-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/79c03728-8891-4cb9-9ed1-270246290fca-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/79c03728-8891-4cb9-9ed1-270246290fca-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/90d19e9e-3c93-4615-be18-edf1a4090a6f-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/90d19e9e-3c93-4615-be18-edf1a4090a6f-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cd376ef6-89f5-484d-bc3d-306ff9e5e5a6-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/cd376ef6-89f5-484d-bc3d-306ff9e5e5a6-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cf95ac92-e44d-448c-a56c-f98a54861b83-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/cf95ac92-e44d-448c-a56c-f98a54861b83-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e6023585-7eaf-4b9e-ab66-d38425c92295-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/e6023585-7eaf-4b9e-ab66-d38425c92295-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e8aae6fe-4d40-42d7-a32e-3205cdff85d2-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/e8aae6fe-4d40-42d7-a32e-3205cdff85d2-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ee704d92-6295-4a83-98d4-dcebe5850ae5-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/ee704d92-6295-4a83-98d4-dcebe5850ae5-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/configurations/ReadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configurations/ReadProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseEntities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseEntities/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configurations/ReadProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/BrowsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseEntities/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseEntities/BaseStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseEntities/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DashboardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ProjectsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/SideMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/TopMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/LoginStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/NavigationStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/MenuTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestCaseTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +72,18 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Locators" />
+        <entry key="$PROJECT_DIR$" value="PageObject_Simple" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,7 +127,24 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestCaseTests">
+  <component name="RunManager" selected="TestNG.ActionsTest">
+    <configuration name="ActionsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ActionsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
       <extension name="coverage">
@@ -96,46 +156,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.MenuTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RetryTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RetryTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RetryTest.flakyTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RetryTest" />
-      <option name="METHOD_NAME" value="flakyTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -159,13 +179,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaitsTest.presenceOfElement1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.WaitsTest" />
+      <option name="METHOD_NAME" value="presenceOfElement1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitsTest.presenceOfElementTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.WaitsTest" />
+      <option name="METHOD_NAME" value="presenceOfElementTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestCaseTests" />
-        <item itemvalue="TestNG.MenuTest" />
+        <item itemvalue="TestNG.ActionsTest" />
+        <item itemvalue="TestNG.WaitsTest.presenceOfElementTest" />
+        <item itemvalue="TestNG.WaitsTest.presenceOfElement1" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.RetryTest.flakyTest" />
-        <item itemvalue="TestNG.RetryTest" />
+        <item itemvalue="TestNG.TestCaseTests" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +239,7 @@
       <workItem from="1649864899222" duration="7688000" />
       <workItem from="1649873049402" duration="931000" />
       <workItem from="1650622487563" duration="2062000" />
-      <workItem from="1651677754114" duration="1953000" />
+      <workItem from="1651677754114" duration="11175000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1649872074694</created>
@@ -269,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651086482500</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary=".">
+      <created>1651681646276</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651681646276</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
