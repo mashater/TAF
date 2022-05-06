@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/WaitsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ActionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WaitsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/106e0209-6456-4314-bff4-da4cdf9ff218-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/106e0209-6456-4314-bff4-da4cdf9ff218-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/13570503-56e1-48cb-a481-0497c7f2c88d-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/13570503-56e1-48cb-a481-0497c7f2c88d-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/14ef885b-924c-4425-813f-09ec6a4cd718-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/14ef885b-924c-4425-813f-09ec6a4cd718-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/76e3c77d-c097-462c-8ccc-142f5c51cedf-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/76e3c77d-c097-462c-8ccc-142f5c51cedf-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/79c03728-8891-4cb9-9ed1-270246290fca-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/79c03728-8891-4cb9-9ed1-270246290fca-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/90d19e9e-3c93-4615-be18-edf1a4090a6f-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/90d19e9e-3c93-4615-be18-edf1a4090a6f-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cd376ef6-89f5-484d-bc3d-306ff9e5e5a6-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/cd376ef6-89f5-484d-bc3d-306ff9e5e5a6-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cf95ac92-e44d-448c-a56c-f98a54861b83-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/cf95ac92-e44d-448c-a56c-f98a54861b83-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e6023585-7eaf-4b9e-ab66-d38425c92295-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/e6023585-7eaf-4b9e-ab66-d38425c92295-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e8aae6fe-4d40-42d7-a32e-3205cdff85d2-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/e8aae6fe-4d40-42d7-a32e-3205cdff85d2-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ee704d92-6295-4a83-98d4-dcebe5850ae5-result.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/ee704d92-6295-4a83-98d4-dcebe5850ae5-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configurations/ReadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configurations/ReadProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseEntities/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseEntities/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/configurations/ReadProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/BrowsersService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseEntities/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseEntities/BaseStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseEntities/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DashboardPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ProjectsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/SideMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/TopMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/LoginStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/NavigationStep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/MenuTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestCaseTests.class" beforeDir="false" />
-    </list>
+    <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,7 +201,7 @@
       <workItem from="1649864899222" duration="7688000" />
       <workItem from="1649873049402" duration="931000" />
       <workItem from="1650622487563" duration="2062000" />
-      <workItem from="1651677754114" duration="11175000" />
+      <workItem from="1651677754114" duration="11381000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1649872074694</created>
@@ -332,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651681646276</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary=".">
+      <created>1651691199097</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651691199097</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
