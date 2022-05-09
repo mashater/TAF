@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment="hw">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Task_6_Saucedemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/configurations/ReadProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/AdvancedDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/BrowsersService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/SimpleDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/FirstTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Homework_SmokeTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Homework_WarmFloor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Homework_laminate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LaminateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SmokeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Task_6_Saucedemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Task_6_Saucedemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,52 +78,11 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Task_6_Saucedemo.saucedemo">
-    <configuration name="Homework_WarmFloor" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Task_6_Saucedemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.Homework_WarmFloor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task_6_Saucedemo" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LaminateTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LaminateTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LaminateTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TAF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LaminateTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,6 +94,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task_6_Saucedemo" />
       <option name="METHOD_NAME" value="kermifko" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_6_Saucedemo.relativeLocators" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task_6_Saucedemo" />
+      <option name="METHOD_NAME" value="relativeLocators" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -167,13 +125,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_6_Saucedemo.saucedemo1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TAF" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task_6_Saucedemo" />
+      <option name="METHOD_NAME" value="saucedemo1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Task_6_Saucedemo.saucedemo" />
+        <item itemvalue="TestNG.Task_6_Saucedemo" />
+        <item itemvalue="TestNG.Task_6_Saucedemo.relativeLocators" />
+        <item itemvalue="TestNG.Task_6_Saucedemo.saucedemo1" />
         <item itemvalue="TestNG.Task_6_Saucedemo.kermifko" />
-        <item itemvalue="TestNG.LaminateTest.test" />
-        <item itemvalue="TestNG.LaminateTest" />
-        <item itemvalue="TestNG.Homework_WarmFloor" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +161,7 @@
       <workItem from="1649864899222" duration="7688000" />
       <workItem from="1649873049402" duration="931000" />
       <workItem from="1651004902503" duration="5857000" />
+      <workItem from="1652094472902" duration="8832000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1649872074694</created>
@@ -255,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650901209283</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="hw">
+      <created>1651874766731</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651874766731</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
