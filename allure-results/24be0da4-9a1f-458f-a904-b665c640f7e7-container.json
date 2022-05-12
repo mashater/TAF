@@ -1,0 +1,1 @@
+{"uuid":"24be0da4-9a1f-458f-a904-b665c640f7e7","name":"Task_6_Saucedemo.setUp","children":["9cb13511-4008-4557-80b4-646630e83c78"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1651866534122,"stop":1651866540579}],"afters":[],"start":1651866534120,"stop":1651866540579}
