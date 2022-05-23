@@ -1,1 +1,0 @@
-{"uuid":"4a7fb9cd-ff4a-41dc-a448-f643faf4f763","name":"Task_6_Saucedemo.tearDown","children":["b9f095e1-5880-4a22-a4a9-6f28d4f75cd3"],"description":"","befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1651865683776,"stop":1651865686046}],"start":1651865683775,"stop":1651865686046}
