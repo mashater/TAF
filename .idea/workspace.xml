@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment=".">
+    <list default="true" id="27cfa0af-6136-4e11-8572-977987140e96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/MilestonesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MilestonesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/BrowsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TAF.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/configurations/ReadProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/BrowsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseEntities/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseEntities/BaseStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseEntities/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/DashboardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/ProjectsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/SideMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/TopMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/LoginStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/NavigationStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/MenuTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestCaseTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +57,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Locators" />
+        <entry key="$PROJECT_DIR$" value="git" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,6 +98,7 @@
       <recent name="C:\Users\m.terenya\IdeaProjects\TAF\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\m.terenya\IdeaProjects\TAF" />
       <recent name="C:\Users\m.terenya\IdeaProjects\TAF\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -162,10 +183,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestCaseTests" />
-        <item itemvalue="TestNG.MenuTest" />
-        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.RetryTest.flakyTest" />
         <item itemvalue="TestNG.RetryTest" />
+        <item itemvalue="TestNG.MenuTest" />
+        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +205,7 @@
       <workItem from="1649873049402" duration="931000" />
       <workItem from="1650622487563" duration="2062000" />
       <workItem from="1651677754114" duration="1953000" />
+      <workItem from="1653309131459" duration="5374000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1649872074694</created>
