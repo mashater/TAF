@@ -20,7 +20,7 @@ public abstract class BasePage {
 
     public boolean isPageOpened() {
         return waitsService.waitForExists(getPageIdentifier()).isDisplayed();
-    }
+    } // Loadable page/component
 
     public void openPageByUrl(String pagePath) {
         driver.get(ReadProperties.getUrl() + pagePath);

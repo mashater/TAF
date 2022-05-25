@@ -1,6 +1,7 @@
 package tests;
 
 import BaseEntities.BaseTest;
+import Pages.LoginPage;
 import configurations.ReadProperties;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -34,5 +35,15 @@ public class LoginTest extends BaseTest {
                 loginStep.incorrectLogin(ReadProperties.username(), "123").getErrorTextElement().getText(),
                 "Email/Login or Password is incorrect. Please try again.",
                 "Неверное сообщение об ошибке");
+    }
+
+    @Test
+    public void successLoginInvocationsTest() {
+        Assert.assertTrue(
+                new LoginPage(driver).
+                        successLogin("arg", "fhfj")
+                        .openProject("sdfsd")
+                        .getTabByName( "argaer").isDisplayed()  // фраймворк показывает куда переходит по страницам/pages
+        );
     }
 }
