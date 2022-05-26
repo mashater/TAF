@@ -1,5 +1,7 @@
 package BaseEntities;
 
+
+import Pages.MilestonesPage;
 import org.openqa.selenium.WebDriver;
 import Pages.DashboardPage;
 import Pages.LoginPage;
@@ -10,6 +12,7 @@ public class BaseStep {
     protected LoginPage loginPage;
     protected DashboardPage dashboardPage;
     protected ProjectsPage projectsPage;
+    protected MilestonesPage milestonesPage;
 
 
     public BaseStep(WebDriver driver) {
@@ -18,5 +21,6 @@ public class BaseStep {
         loginPage = new LoginPage(driver);
         dashboardPage = new DashboardPage(driver);
         projectsPage = new ProjectsPage(driver);
+        milestonesPage= new MilestonesPage(driver);
     }
 }
