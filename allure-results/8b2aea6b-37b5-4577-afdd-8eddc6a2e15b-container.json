@@ -1,1 +1,0 @@
-{"uuid":"8b2aea6b-37b5-4577-afdd-8eddc6a2e15b","name":"tests.BasicLocatorsTest.setup","children":["a980abe3-691f-4eb2-87aa-b0542fbb2fd4"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1650623773558,"stop":1650623776729}],"afters":[],"start":1650623773558,"stop":1650623776729}
