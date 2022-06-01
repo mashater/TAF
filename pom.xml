@@ -27,7 +27,7 @@
 
             <artifactId>selenium-java</artifactId>
 
-            <version>4.1.4</version>
+            <version>4.1.1</version>
 
         </dependency>
 
