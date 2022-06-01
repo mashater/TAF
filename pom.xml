@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
 
     <modelVersion>4.0.0</modelVersion>
 
@@ -13,183 +14,185 @@
 
     <properties>
 
-    <aspectj.version>1.9.6</aspectj.version>
+        <aspectj.version>1.9.6</aspectj.version>
 
-</properties>
+    </properties>
 
 
     <dependencies>
 
-    <dependency>
+        <dependency>
 
-    <groupId>org.seleniumhq.selenium</groupId>
+            <groupId>org.seleniumhq.selenium</groupId>
 
-    <artifactId>selenium-java</artifactId>
+            <artifactId>selenium-java</artifactId>
 
-    <version>4.1.1</version>
+            <version>4.1.4</version>
 
-</dependency>
+        </dependency>
 
         <dependency>
 
-    <groupId>io.github.bonigarcia</groupId>
+            <groupId>io.github.bonigarcia</groupId>
 
-    <artifactId>webdrivermanager</artifactId>
+            <artifactId>webdrivermanager</artifactId>
 
-    <version>5.0.2</version>
+            <version>5.0.3</version>
 
-</dependency>
-
-
-    <dependency>
-
-    <groupId>org.testng</groupId>
-
-    <artifactId>testng</artifactId>
-
-    <version>7.5</version>
-
-</dependency>
+        </dependency>
 
 
-    <dependency>
-
-    <groupId>org.slf4j</groupId>
-
-    <artifactId>slf4j-log4j12</artifactId>
-
-    <version>1.7.35</version>
-
-</dependency>
-
-
-    <dependency>
-
-    <groupId>org.projectlombok</groupId>
-
-    <artifactId>lombok</artifactId>
-
-    <version>1.18.22</version>
-
-    <scope>provided</scope>
-
-</dependency>
         <dependency>
 
-    <groupId>io.qameta.allure</groupId>
+            <groupId>org.testng</groupId>
 
-    <artifactId>allure-testng</artifactId>
+            <artifactId>testng</artifactId>
 
-    <version>2.17.2</version>
+            <version>7.5</version>
 
-</dependency>
+        </dependency>
 
-</dependencies>
+
+        <dependency>
+
+            <groupId>org.slf4j</groupId>
+
+            <artifactId>slf4j-log4j12</artifactId>
+
+            <version>1.7.35</version>
+
+        </dependency>
+
+
+        <dependency>
+
+            <groupId>org.projectlombok</groupId>
+
+            <artifactId>lombok</artifactId>
+
+            <version>1.18.22</version>
+
+            <scope>provided</scope>
+
+        </dependency>
+        <dependency>
+
+            <groupId>io.qameta.allure</groupId>
+
+            <artifactId>allure-testng</artifactId>
+
+            <version>2.17.2</version>
+
+        </dependency>
+
+    </dependencies>
 
 
     <build>
 
-    <sourceDirectory>src/main/java</sourceDirectory>
+        <sourceDirectory>src/main/java</sourceDirectory>
 
-    <testSourceDirectory>src/test/java</testSourceDirectory>
-
-
-    <plugins>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
 
 
-    <plugin>
-
-    <groupId>org.apache.maven.plugins</groupId>
-
-    <artifactId>maven-surefire-plugin</artifactId>
-
-    <version>2.22.2</version>
+        <plugins>
 
 
-    <configuration>
+            <plugin>
 
-    <testFailureIgnore>true</testFailureIgnore>
+                <groupId>org.apache.maven.plugins</groupId>
 
-    <forkCount>2</forkCount>
+                <artifactId>maven-surefire-plugin</artifactId>
 
-    <reuseForks>true</reuseForks>
-
-    <useSystemClassLoader>false</useSystemClassLoader>
-
-    <!--suiteXmlFiles>src/test/resources/testng.xml</suiteXmlFiles-->
+                <version>2.22.2</version>
 
 
-    <argLine> -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar" </argLine>
+                <configuration>
 
-</configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
 
+                    <forkCount>2</forkCount>
 
-    <dependencies>
+                    <reuseForks>true</reuseForks>
 
+                    <useSystemClassLoader>false</useSystemClassLoader>
 
-    <dependency>
-
-    <groupId>org.aspectj</groupId>
-
-    <artifactId>aspectjweaver</artifactId>
-
-    <version>${aspectj.version}</version>
-
-</dependency>
-
-</dependencies>
-
-</plugin>
+                    <!--suiteXmlFiles>src/test/resources/testng.xml</suiteXmlFiles-->
 
 
-    <plugin>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
 
-    <groupId>org.apache.maven.plugins</groupId>
-
-    <artifactId>maven-compiler-plugin</artifactId>
-
-    <version>3.8.0</version>
+                </configuration>
 
 
-    <configuration>
-
-    <source>1.8</source>
-
-    <target>1.8</target>
+                <dependencies>
 
 
-    <annotationProcessorPaths>
+                    <dependency>
+
+                        <groupId>org.aspectj</groupId>
+
+                        <artifactId>aspectjweaver</artifactId>
+
+                        <version>${aspectj.version}</version>
+
+                    </dependency>
+
+                </dependencies>
+
+            </plugin>
 
 
-    <path>
+            <plugin>
 
-    <groupId>org.projectlombok</groupId>
+                <groupId>org.apache.maven.plugins</groupId>
 
-    <artifactId>lombok</artifactId>
+                <artifactId>maven-compiler-plugin</artifactId>
 
-    <version>1.18.22</version>
-
-</path>
-
-</annotationProcessorPaths>
-
-</configuration>
-
-</plugin>
+                <version>3.8.0</version>
 
 
-    <plugin>
+                <configuration>
 
-    <groupId>io.qameta.allure</groupId>
+                    <source>1.8</source>
 
-    <artifactId>allure-maven</artifactId>
+                    <target>1.8</target>
 
-    <version>2.10.0</version>
 
-</plugin>
+                    <annotationProcessorPaths>
 
-</plugins>
 
-</build>
+                        <path>
+
+                            <groupId>org.projectlombok</groupId>
+
+                            <artifactId>lombok</artifactId>
+
+                            <version>1.18.22</version>
+
+                        </path>
+
+                    </annotationProcessorPaths>
+
+                </configuration>
+
+            </plugin>
+
+
+            <plugin>
+
+                <groupId>io.qameta.allure</groupId>
+
+                <artifactId>allure-maven</artifactId>
+
+                <version>2.10.0</version>
+
+            </plugin>
+
+        </plugins>
+
+    </build>
 
 </project>

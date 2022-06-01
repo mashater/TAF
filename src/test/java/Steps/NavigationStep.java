@@ -1,6 +1,7 @@
 package Steps;
 
 import BaseEntities.BaseStep;
+import Pages.MilestonesPage;
 import org.openqa.selenium.WebDriver;
 import Pages.ProjectsPage;
 
@@ -14,4 +15,8 @@ public class NavigationStep extends BaseStep {
         projectsPage.openPageByUrl();
         return projectsPage;
     }
+
+
+
+
 }
