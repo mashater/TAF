@@ -1,6 +1,8 @@
 package BaseEntities;
 
+import Pages.MilestonesOfErgProjectPage;
 import Steps.ErgProjectStep;
+import Steps.MilestonesStep;
 import configurations.ReadProperties;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
@@ -14,6 +16,8 @@ public class BaseTest {
     protected LoginStep loginStep;
     protected NavigationStep navigationStep;
     protected ErgProjectStep ergProjectStep;
+    protected MilestonesStep milestonesStep;
+    protected MilestonesOfErgProjectPage milestonesOfErgProjectPage;
 
     @BeforeMethod
     public void setup() {
@@ -22,6 +26,8 @@ public class BaseTest {
         loginStep = new LoginStep(driver);
         navigationStep = new NavigationStep(driver);
         ergProjectStep = new ErgProjectStep(driver);
+        milestonesStep = new MilestonesStep(driver);
+        milestonesOfErgProjectPage = new MilestonesOfErgProjectPage(driver);
 
         driver.get(ReadProperties.getUrl());
     }

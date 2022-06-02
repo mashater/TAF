@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class MilestonesPage extends BasePage {
-    private final static String pagePath = "/index.php?/milestones/add/3/1";
+public class MilestonePage extends BasePage {
+    private final static String pagePath = "/index.php?/milestones/overview/3/1";
 
     // Блок описания селекторов для элементов
     private By nameInputLocator = By.cssSelector("label +#name");
@@ -14,7 +14,7 @@ public class MilestonesPage extends BasePage {
 
 
     //блок инициализации
-    public MilestonesPage(WebDriver driver) {
+    public MilestonePage(WebDriver driver) {
         super(driver);
     }
 
@@ -23,13 +23,16 @@ public class MilestonesPage extends BasePage {
         return nameInputLocator;
     }
 
+
+
+    // Блок атомарных методов
+    public WebElement getNameInput() {return driver.findElement(nameInputLocator);}
+    public WebElement getAddAndSaveButton() {return driver.findElement(addAndSaveButtonLocator);}
+
+
     public void openPageByUrl() {
         super.openPageByUrl(pagePath);
     }
-
-    // Блок атомарных методов
-    public WebElement nameInput () {return driver.findElement(nameInputLocator);}
-    public WebElement addAndSaveButton () {return driver.findElement(addAndSaveButtonLocator);}
 
 
 
