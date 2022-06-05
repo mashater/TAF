@@ -15,7 +15,19 @@ public class MilestonesTest extends BaseTest {
         Assert.assertTrue(milestonesOfErgProjectPage.isPageOpened());
                 Thread.sleep(4000); // создание milestone
 
+    }
 
+    @Test
+    public void readMilestoneTest(){
+        loginStep.successLogin(ReadProperties.username(), ReadProperties.password());
+        milestonesOfErgProjectPage.openPageByUrl();
+        Assert.assertEquals(milestonesStep.readMilestone(), "First");
 
     }
+
+
+
+
+
+
 }

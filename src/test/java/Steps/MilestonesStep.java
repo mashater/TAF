@@ -14,10 +14,23 @@ public class MilestonesStep extends BaseStep {
     }
 
 
+    public MilestonesOfErgProjectPage navigateToMilestonesOfErgProjPage (){
+        milestonesOfErgProjectPage.openPageByUrl();
+        return milestonesOfErgProjectPage;
+    }
+
+
     public MilestonesOfErgProjectPage createAndSaveMilestone (){
         milestonePage.getNameInput().sendKeys(firstMilestoneName);
         milestonePage.getAddAndSaveButton().click();
        return milestonesOfErgProjectPage;
+
+
+    }
+
+    public MilestonesOfErgProjectPage readMilestone(){
+        milestonesOfErgProjectPage.NameOfMilestone().getText();
+        return milestonesOfErgProjectPage;
 
 
     }

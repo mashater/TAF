@@ -11,7 +11,7 @@ public class ErgProjectPage extends BasePage {
     public MilestonesOfErgProjectPage milestonesOfErgProjectPage;
 
     private By nameOfProjectLocator = By.cssSelector(".content-header-title");
-    private By addMilestoneButtonLocator = By.cssSelector("#navigation-overview-addmilestones");
+    private By addMilestoneButtonLocator = By.cssSelector("#sidebar #sidebar-milestones-add");
 
     public ErgProjectPage(WebDriver driver) {
         super(driver);

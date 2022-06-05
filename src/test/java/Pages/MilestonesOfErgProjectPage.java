@@ -10,6 +10,7 @@ public class MilestonesOfErgProjectPage extends BasePage {
     private final static String pagePath = "/index.php?/milestones/overview/3";
 
     public By AddMilestoneButtonLocator = By.xpath("//span[contains (text(), 'Add Milestone')]");
+    public By NameOfMilestoneLocator = By.xpath("//a[text()='First']");
 
 
     public MilestonesOfErgProjectPage(WebDriver driver) {
@@ -22,6 +23,7 @@ public class MilestonesOfErgProjectPage extends BasePage {
     }
     // Блок атомарных методов
     public WebElement AddMilestoneButton() {return driver.findElement(AddMilestoneButtonLocator);}
+    public WebElement NameOfMilestone() {return driver.findElement(NameOfMilestoneLocator);}
 
 
     public void openPageByUrl() {
