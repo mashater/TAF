@@ -23,11 +23,11 @@ public class ReadProperties {
         return properties.getProperty("browser");
     }
 
-    public static String username() {
+    public static String getUsername() {
         return properties.getProperty("username");
     }
 
-    public static String password() {
+    public static String getPassword() {
         return properties.getProperty("password");
     }
 
@@ -37,4 +37,6 @@ public class ReadProperties {
     public static int timeout() {
         return Integer.parseInt(properties.getProperty("timeout")); // из стринг в инт
     }
+
+
 }
