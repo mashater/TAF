@@ -1,0 +1,1 @@
+{"uuid":"3a39325e-770e-40f2-b46f-c9d47dcebb59","name":"tests.Homework_laminate.setUp","children":["d135c673-b802-487a-9036-81ce5722603e"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1650970508969,"stop":1650970520014}],"afters":[],"start":1650970508968,"stop":1650970520015}

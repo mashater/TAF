@@ -1,6 +1,6 @@
 package services;
 
-import configuration.ReadProperties;
+import configurations.ReadProperties;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.github.bonigarcia.wdm.config.DriverManagerType;
 import org.openqa.selenium.WebDriver;
