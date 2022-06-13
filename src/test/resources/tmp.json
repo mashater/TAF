@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "name": "WP Test",
+  "announcement": "Test An",
+  "show_announcement": false,
+  "is_completed": false,
+  "completed_on": null,
+  "suite_mode": 1,
+  "default_role_id": null,
+  "url": "https://aqa1804.testrail.io/index.php?/projects/overview/1",
+  "users": [
+
+  ],
+  "groups": [
+
+  ]
+}

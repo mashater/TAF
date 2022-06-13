@@ -3,11 +3,14 @@ package tests.api;
 import com.google.gson.Gson;
 import configurations.Endpoints;
 import configurations.ReadProperties;
+import configurations.Endpoints;
+import configurations.ReadProperties;
 import io.restassured.http.ContentType;
 import io.restassured.http.Method;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import lombok.val;
 import models.Project;
 import models.ProjectType;
 import org.apache.http.HttpStatus;
@@ -22,24 +25,21 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 
-public class TestTrailApiTest extends BaseApiTest{
+public class TestRailApiTest extends BaseApiTest {
 
     @Test
-    public void getAllProjectsTest(){
-
+    public void getAllProjectsTest() {
         // Setup request Object
         RequestSpecification httpRequest = given();
-        httpRequest.header(HTTP.CONTENT_TYPE, ContentType.JSON); // в каком виде будет ответ
-        httpRequest.auth().preemptive().basic(ReadProperties.getUsername(), ReadProperties.getPassword()); // базовая авторизация
+        httpRequest.header(HTTP.CONTENT_TYPE, ContentType.JSON);
+        httpRequest.auth().preemptive().basic(ReadProperties.getUsername(), ReadProperties.getPassword());
 
         // Setup Response Object
         Response response = httpRequest.request(Method.GET, Endpoints.GET_PROJECTS);
 
-
         // Get Response Status
         int statusCode = response.getStatusCode();
         System.out.println("Status Code: " + statusCode);
-        Assert.assertEquals(statusCode, 200);
         Assert.assertEquals(statusCode, HttpStatus.SC_OK);
 
         // Get Response Body
@@ -48,21 +48,20 @@ public class TestTrailApiTest extends BaseApiTest{
     }
 
     @Test
-    public void getAllProjectsShortTest(){
+    public void getAllProjectsShortTest() {
         given()
-                //.header(HTTP.CONTENT_TYPE, ContentType.JSON) --добавили в baseApiTest
-                //.auth().preemptive().basic(ReadProperties.getUsername(), ReadProperties.getPassword())
+                //.header(HTTP.CONTENT_TYPE, ContentType.JSON)
+                //.auth().preemptive().basic(ReadProperties.username(), ReadProperties.password())
                 .when()
                 .get(Endpoints.GET_PROJECTS)
                 .then()
                 .log().status()
                 .log().body()
                 .statusCode(HttpStatus.SC_OK);
-
     }
 
     @Test
-    public void addProjectTest(){
+    public void addProjectTest() {
         Project newProject = Project.builder()
                 .name("WP_Test_01")
                 .build();
@@ -76,31 +75,16 @@ public class TestTrailApiTest extends BaseApiTest{
                 .then()
                 .log().body()
                 .statusCode(HttpStatus.SC_OK);
-
-
-        //String newProjectName = "WP_Test_01";
-
-        /*given()
-                .body(String.format("{\n" +
-                        "  \"name\": \"%s\"\n" +
-                        "}", newProjectName))
-                .when()
-                .post(Endpoints.ADD_PROJECT)
-                .then()
-                .log().body()
-                .statusCode(HttpStatus.SC_OK);
-
-         */
     }
 
     @Test
     public void addProject2() {
         Project project = Project.builder()
-                .name("WP_Project_02")
+                .name("WP_Test_02")
                 .typeOfProject(ProjectType.SINGLE_SUITE_MODE)
                 .build();
 
-        Map<String, Object> jsonAsMap = new HashMap<>(); // имя и значение
+        Map<String, Object> jsonAsMap = new HashMap<>();
         jsonAsMap.put("name", project.getName());
         jsonAsMap.put("suite_mode", project.getTypeOfProject());
 
@@ -124,7 +108,7 @@ public class TestTrailApiTest extends BaseApiTest{
         jsonAsMap.put("name", project.getName());
         jsonAsMap.put("suite_mode", project.getTypeOfProject());
 
-        Project newProject = given()  // создаем
+        Project newProject = given()
                 .body(jsonAsMap)
                 .when()
                 .post(Endpoints.ADD_PROJECT)
@@ -132,9 +116,10 @@ public class TestTrailApiTest extends BaseApiTest{
                 .log().body()
                 .statusCode(HttpStatus.SC_OK)
                 .extract()
-                .as(Project.class); //ответ в объекте
+                .as(Project.class);
 
         System.out.println(newProject.toString());
+        Assert.assertTrue(newProject.equals(expectedProject));
     }
 
     @Test
@@ -166,7 +151,7 @@ public class TestTrailApiTest extends BaseApiTest{
     }
 
     @Test
-    public void getExactProject(){
+    public void getExactProject() {
         given()
                 .pathParam("project_id", 1)
                 .get(Endpoints.GET_PROJECT)
@@ -175,15 +160,18 @@ public class TestTrailApiTest extends BaseApiTest{
                 .statusCode(HttpStatus.SC_OK)
                 .body("id", is(1))
                 .body("name", equalTo("WP Test"));
+
     }
 
     @Test
-    public void getExactProjectAsObjectTest(){
+    public void getExactProjectAsObjectTest() {
         Response response = given()
                 .pathParam("project_id", 1)
                 .get(Endpoints.GET_PROJECT);
 
-        Project actualProject = new Gson().fromJson(response.getBody().asString(), Project.class); //не toString !
+        Project actualProject = new Gson().fromJson(response.getBody().asString(),
+                Project.class);
+
         Assert.assertEquals(actualProject.getName(), "WP Test");
     }
 }
