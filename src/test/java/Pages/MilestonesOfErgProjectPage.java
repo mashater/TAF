@@ -6,11 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class MilestonesOfErgProjectPage extends BasePage {
+    public MilestoneEditPage milestoneEditPage;
     public MilestonePage milestonePage;
     private final static String pagePath = "/index.php?/milestones/overview/3";
 
-    public By AddMilestoneButtonLocator = By.xpath("//span[contains (text(), 'Add Milestone')]");
-    public By NameOfMilestoneLocator = By.xpath("//a[text()='First']");
+    public By addMilestoneButtonLocator = By.xpath("//span[contains (text(), 'Add Milestone')]");
+    public By nameOfMilestoneLocator = By.xpath("//a[text()='First']");
+    public By successMassageLocator = By.className("message-success");
 
 
     public MilestonesOfErgProjectPage(WebDriver driver) {
@@ -19,11 +21,12 @@ public class MilestonesOfErgProjectPage extends BasePage {
 
     @Override
     protected By getPageIdentifier() {
-        return AddMilestoneButtonLocator;
+        return addMilestoneButtonLocator;
     }
     // Блок атомарных методов
-    public WebElement AddMilestoneButton() {return driver.findElement(AddMilestoneButtonLocator);}
-    public WebElement NameOfMilestone() {return driver.findElement(NameOfMilestoneLocator);}
+    public WebElement getAddMilestoneButton() {return driver.findElement(addMilestoneButtonLocator);}
+    public WebElement getNameOfMilestone() {return driver.findElement(nameOfMilestoneLocator);}
+    public WebElement getSuccessMassage() {return driver.findElement(successMassageLocator);}
 
 
     public void openPageByUrl() {

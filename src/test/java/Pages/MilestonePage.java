@@ -6,11 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class MilestonePage extends BasePage {
-    private final static String pagePath = "/index.php?/milestones/overview/3/1";
 
     // Блок описания селекторов для элементов
-    private By nameInputLocator = By.cssSelector("label +#name");
-    private By addAndSaveButtonLocator = By.cssSelector("#accept");
+    private By nameElementLocator = By.xpath("//*[@id='content-header']/div/div[4]");
 
 
     //блок инициализации
@@ -20,20 +18,12 @@ public class MilestonePage extends BasePage {
 
     @Override
     protected By getPageIdentifier() {
-        return nameInputLocator;
+        return nameElementLocator;
     }
 
 
 
     // Блок атомарных методов
-    public WebElement getNameInput() {return driver.findElement(nameInputLocator);}
-    public WebElement getAddAndSaveButton() {return driver.findElement(addAndSaveButtonLocator);}
-
-
-    public void openPageByUrl() {
-        super.openPageByUrl(pagePath);
-    }
-
-
+    public WebElement getNameElement() {return driver.findElement(nameElementLocator);}
 
 }

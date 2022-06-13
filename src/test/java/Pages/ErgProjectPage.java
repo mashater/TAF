@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 public class ErgProjectPage extends BasePage {
     private final static String pagePath = "/index.php?/projects/overview/3";
-    public MilestonePage milestonePage;
+    public MilestoneEditPage milestoneEditPage;
     public MilestonesOfErgProjectPage milestonesOfErgProjectPage;
 
     private By nameOfProjectLocator = By.cssSelector(".content-header-title");
@@ -15,7 +15,7 @@ public class ErgProjectPage extends BasePage {
 
     public ErgProjectPage(WebDriver driver) {
         super(driver);
-        milestonePage = new MilestonePage(driver);
+        milestoneEditPage = new MilestoneEditPage(driver);
     }
 
     @Override

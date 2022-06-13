@@ -12,8 +12,8 @@ public class MilestonesTest extends BaseTest {
         loginStep.successLogin(ReadProperties.username(), ReadProperties.password());
         ergProjectStep.openMilestonePage();
         milestonesStep.createAndSaveMilestone();
-        Assert.assertTrue(milestonesOfErgProjectPage.isPageOpened());
-                Thread.sleep(4000); // создание milestone
+        Assert.assertTrue(milestonesOfErgProjectPage.getSuccessMassage().isDisplayed());
+                // создание milestone
 
     }
 
@@ -21,9 +21,11 @@ public class MilestonesTest extends BaseTest {
     public void readMilestoneTest(){
         loginStep.successLogin(ReadProperties.username(), ReadProperties.password());
         milestonesOfErgProjectPage.openPageByUrl();
-        Assert.assertEquals(milestonesStep.readMilestone(), "First");
+        Assert.assertTrue(milestonesStep.readMilestone().getNameElement().isDisplayed());
 
     }
+
+
 
 
 

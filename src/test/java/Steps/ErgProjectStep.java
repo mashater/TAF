@@ -2,7 +2,7 @@ package Steps;
 
 import BaseEntities.BaseStep;
 import Pages.ErgProjectPage;
-import Pages.MilestonePage;
+import Pages.MilestoneEditPage;
 import org.openqa.selenium.WebDriver;
 
 public class ErgProjectStep extends BaseStep {
@@ -15,11 +15,11 @@ public class ErgProjectStep extends BaseStep {
         return ergProjectPage;
     }
 
-    public MilestonePage openMilestonePage() {
+    public MilestoneEditPage openMilestonePage() {
         ergProjectPage.openPageByUrl();
         ergProjectPage.getAddMilestoneButton().click();
 
-        return milestonePage;
+        return milestoneEditPage;
 
 
     }
