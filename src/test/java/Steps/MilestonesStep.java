@@ -1,7 +1,6 @@
 package Steps;
 
 import BaseEntities.BaseStep;
-import Pages.MilestoneEditPage;
 import Pages.MilestonePage;
 import Pages.MilestonesOfErgProjectPage;
 import org.openqa.selenium.WebDriver;
@@ -23,6 +22,7 @@ public class MilestonesStep extends BaseStep {
 
 
     public MilestonesOfErgProjectPage createAndSaveMilestone (){
+        milestoneEditPage.getNameInput().click();
         milestoneEditPage.getNameInput().sendKeys(firstMilestoneName);
         milestoneEditPage.getAddAndSaveButton().click();
        return milestonesOfErgProjectPage;
@@ -31,12 +31,27 @@ public class MilestonesStep extends BaseStep {
     }
 
     public MilestonePage readMilestone(){
-        milestonesOfErgProjectPage.getNameOfMilestone().click();
-        return milestonePage; // зашли на стр milestonа, нужно нажать edit
-
-
+        milestonesOfErgProjectPage.getNameOfFirstMilestone().click();
+        return milestonePage;
     }
 
+    public MilestonesOfErgProjectPage editMilestone(){
+        milestonesOfErgProjectPage.getNameOfFirstMilestone().click();
+        milestonePage.getEditButton().click();
+        milestoneEditPage.getNameInput().clear();
+        milestoneEditPage.getNameInput().sendKeys(secondMilestoneName);
+        milestoneEditPage.getAddAndSaveButton().click();
+        return milestonesOfErgProjectPage;
+
+}
+
+    public MilestonesOfErgProjectPage deleteMilestone(){
+        milestonesOfErgProjectPage.openPageByUrl();
+        milestonesOfErgProjectPage.getDeleteButton().click();
+        milestonesOfErgProjectPage.getConfirmationDeleteButton().click();
+
+        return milestonesOfErgProjectPage;
+    }
 
 
 }

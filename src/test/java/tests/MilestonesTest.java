@@ -13,11 +13,9 @@ public class MilestonesTest extends BaseTest {
         ergProjectStep.openMilestonePage();
         milestonesStep.createAndSaveMilestone();
         Assert.assertTrue(milestonesOfErgProjectPage.getSuccessMassage().isDisplayed());
-                // создание milestone
-
     }
 
-    @Test
+    @Test (dependsOnMethods = "createNewMilestoneTest")
     public void readMilestoneTest(){
         loginStep.successLogin(ReadProperties.username(), ReadProperties.password());
         milestonesOfErgProjectPage.openPageByUrl();
@@ -25,20 +23,22 @@ public class MilestonesTest extends BaseTest {
 
     }
 
-    @Test
+    @Test (dependsOnMethods = "readMilestoneTest")
     public void updateMilestoneTest(){
         loginStep.successLogin(ReadProperties.username(), ReadProperties.password());
         milestonesOfErgProjectPage.openPageByUrl();
-        milestonesStep.readMilestone();
-
+        milestonesStep.editMilestone();
+        Assert.assertTrue(milestonesOfErgProjectPage.getSuccessMassage().isDisplayed());
 
     }
 
+    @Test (dependsOnMethods = "updateMilestoneTest")
+    public void deleteMilestoneTest(){
+        loginStep.successLogin(ReadProperties.username(), ReadProperties.password());
+        milestonesOfErgProjectPage.openPageByUrl();
+        milestonesStep.deleteMilestone();
+        Assert.assertTrue(milestonesOfErgProjectPage.getSuccessMassage().isDisplayed());
 
-
-
-
-
-
+    }
 
 }

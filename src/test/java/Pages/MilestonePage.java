@@ -9,6 +9,7 @@ public class MilestonePage extends BasePage {
 
     // Блок описания селекторов для элементов
     private By nameElementLocator = By.xpath("//*[@id='content-header']/div/div[4]");
+    private By editButtonLocator = By.cssSelector(".button-edit");
 
 
     //блок инициализации
@@ -25,5 +26,6 @@ public class MilestonePage extends BasePage {
 
     // Блок атомарных методов
     public WebElement getNameElement() {return driver.findElement(nameElementLocator);}
+    public WebElement getEditButton() {return driver.findElement(editButtonLocator);}
 
 }
