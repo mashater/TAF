@@ -25,6 +25,15 @@ public class MilestonesTest extends BaseTest {
 
     }
 
+    @Test
+    public void updateMilestoneTest(){
+        loginStep.successLogin(ReadProperties.username(), ReadProperties.password());
+        milestonesOfErgProjectPage.openPageByUrl();
+        milestonesStep.readMilestone();
+
+
+    }
+
 
 
 

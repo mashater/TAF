@@ -32,7 +32,7 @@ public class MilestonesStep extends BaseStep {
 
     public MilestonePage readMilestone(){
         milestonesOfErgProjectPage.getNameOfMilestone().click();
-        return milestonePage;
+        return milestonePage; // зашли на стр milestonа, нужно нажать edit
 
 
     }

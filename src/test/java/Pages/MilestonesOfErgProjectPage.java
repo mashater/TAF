@@ -8,10 +8,10 @@ import org.openqa.selenium.WebElement;
 public class MilestonesOfErgProjectPage extends BasePage {
     public MilestoneEditPage milestoneEditPage;
     public MilestonePage milestonePage;
-    private final static String pagePath = "/index.php?/milestones/overview/3";
+    private final static String pagePath = "/index.php?/milestones/overview/55";
 
     public By addMilestoneButtonLocator = By.xpath("//span[contains (text(), 'Add Milestone')]");
-    public By nameOfMilestoneLocator = By.xpath("//a[text()='First']");
+    public By nameOfFirstMilestoneLocator = By.xpath("//a[text()='First']");
     public By successMassageLocator = By.className("message-success");
 
 
@@ -25,7 +25,7 @@ public class MilestonesOfErgProjectPage extends BasePage {
     }
     // Блок атомарных методов
     public WebElement getAddMilestoneButton() {return driver.findElement(addMilestoneButtonLocator);}
-    public WebElement getNameOfMilestone() {return driver.findElement(nameOfMilestoneLocator);}
+    public WebElement getNameOfMilestone() {return driver.findElement(nameOfFirstMilestoneLocator);}
     public WebElement getSuccessMassage() {return driver.findElement(successMassageLocator);}
 
 

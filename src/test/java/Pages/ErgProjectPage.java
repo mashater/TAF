@@ -6,12 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class ErgProjectPage extends BasePage {
-    private final static String pagePath = "/index.php?/projects/overview/3";
+    private final static String pagePath = "/index.php?/milestones/overview/55";
     public MilestoneEditPage milestoneEditPage;
     public MilestonesOfErgProjectPage milestonesOfErgProjectPage;
 
     private By nameOfProjectLocator = By.cssSelector(".content-header-title");
-    private By addMilestoneButtonLocator = By.cssSelector("#sidebar #sidebar-milestones-add");
+    private By addMilestoneButtonLocator = By.cssSelector("#navigation-milestones-add > span");
 
     public ErgProjectPage(WebDriver driver) {
         super(driver);
