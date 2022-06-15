@@ -1,6 +1,5 @@
 package tests.api;
 
-import helpers.ProjectHelper;
 import models.Project;
 import org.apache.http.HttpStatus;
 import org.testng.Assert;
