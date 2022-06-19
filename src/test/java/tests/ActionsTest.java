@@ -20,7 +20,7 @@ public class ActionsTest extends BaseTest {
 
         List<WebElement> targetElement = wait.waitForAllVisibleElementsLocatedBy(By.cssSelector(".figure"));// наводим на элемент
         actions.moveToElement(targetElement.get(0), 10, 10) //перемещение курсора по осям x и y,те. дальше от верхнего левого угла
-                .click(wait.waitForVisibilityLocatedBy(By.cssSelector("[href=\"/users/1\"]")))//кликнуть на появившиеся
+                .click(wait.waitForExists(By.cssSelector("[href='/users/1']")))//кликнуть на появившиеся
 
 
                 .moveToElement(targetElement.get(1))
@@ -37,7 +37,7 @@ public class ActionsTest extends BaseTest {
         WaitsService wait = new WaitsService(driver, Duration.ofSeconds(10));
 
         WebElement fileUploadPath = wait.waitForExists(By.id("file-upload"));
-        String pathToFile = ActionsTest.class.getClassLoader().getResource("download.jpeg").getPath();
+        String pathToFile = ActionsTest.class.getClassLoader().getResource("download.jpeg").getPath(); // изображение добавляем в ресурсы и меняем имя тут
         System.out.println(pathToFile);
         fileUploadPath.sendKeys(pathToFile);
         wait.waitForExists(By.id("file-submit")).submit();
