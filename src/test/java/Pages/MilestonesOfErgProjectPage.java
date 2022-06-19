@@ -26,12 +26,12 @@ public class MilestonesOfErgProjectPage extends BasePage {
         return addMilestoneButtonLocator;
     }
     // Блок атомарных методов
-    public WebElement getAddMilestoneButton() {return driver.findElement(addMilestoneButtonLocator);}
-    public WebElement getNameOfSecondMilestone() {return driver.findElement(nameOfSecondMilestoneLocator);}
-    public WebElement getNameOfFirstMilestone() {return driver.findElement(nameOfFirstMilestoneLocator);}
-    public WebElement getSuccessMassage() {return driver.findElement(successMassageLocator);}
-    public WebElement getDeleteButton() {return driver.findElement(deleteButtonLocator);}
-    public WebElement getConfirmationDeleteButton() {return driver.findElement(confirmationDeleteButtonLocator);}
+    public WebElement getAddMilestoneButton() {return waitsService.waitForExists(addMilestoneButtonLocator);}
+    public WebElement getNameOfSecondMilestone() {return waitsService.waitForExists(nameOfSecondMilestoneLocator);}
+    public WebElement getNameOfFirstMilestone() {return waitsService.waitForExists(nameOfFirstMilestoneLocator);}
+    public WebElement getSuccessMassage() {return waitsService.waitForExists(successMassageLocator);}
+    public WebElement getDeleteButton() {return waitsService.waitForExists(deleteButtonLocator);}
+    public WebElement getConfirmationDeleteButton() {return waitsService.waitForExists(confirmationDeleteButtonLocator);}
 
 
     public void openPageByUrl() {
