@@ -26,8 +26,8 @@ public class MilestoneEditPage extends BasePage {
 
 
     // Блок атомарных методов
-    public WebElement getNameInput() {return driver.findElement(nameInputLocator);}
-    public WebElement getAddAndSaveButton() {return driver.findElement(addAndSaveButtonLocator);}
+    public WebElement getNameInput() {return waitsService.waitForExists(nameInputLocator);}
+    public WebElement getAddAndSaveButton() {return waitsService.waitForExists(addAndSaveButtonLocator);}
 
 
     public void openPageByUrl() {

@@ -1,6 +1,7 @@
 package configurations;
 
 import java.io.IOException;
+
 import java.util.Properties;
 
 public class ReadProperties {
@@ -29,6 +30,10 @@ public class ReadProperties {
 
     public static String password() {
         return properties.getProperty("password");
+    }
+
+    public static int timeout() {
+        return Integer.parseInt(properties.getProperty("timeout"));
     }
 
     public static boolean isHeadless() {

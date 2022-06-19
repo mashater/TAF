@@ -2,8 +2,12 @@ package tests;
 
 import BaseEntities.BaseTest;
 import configurations.ReadProperties;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import services.WaitsService;
+
+import java.time.Duration;
 
 public class MilestonesTest extends BaseTest {
 
@@ -34,10 +38,14 @@ public class MilestonesTest extends BaseTest {
 
     @Test (dependsOnMethods = "updateMilestoneTest")
     public void deleteMilestoneTest(){
+        WaitsService wait = new WaitsService(driver, Duration.ofSeconds(ReadProperties.timeout()));
+
         loginStep.successLogin(ReadProperties.username(), ReadProperties.password());
         milestonesOfErgProjectPage.openPageByUrl();
         milestonesStep.deleteMilestone();
-        Assert.assertTrue(milestonesOfErgProjectPage.getSuccessMassage().isDisplayed());
+
+        WebElement successMassage = wait.waitForVisibility(milestonesOfErgProjectPage.getSuccessMassage());
+        Assert.assertTrue(successMassage.isDisplayed());
 
     }
 

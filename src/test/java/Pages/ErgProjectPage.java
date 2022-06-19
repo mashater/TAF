@@ -24,10 +24,10 @@ public class ErgProjectPage extends BasePage {
     }
 
     public WebElement nameOfProject ()
-    {return driver.findElement(nameOfProjectLocator);}
+    {return waitsService.waitForExists(nameOfProjectLocator);}
 
     public WebElement getAddMilestoneButton ()
-    {return driver.findElement(addMilestoneButtonLocator);}
+    {return waitsService.waitForExists(addMilestoneButtonLocator);}
 
     public void openPageByUrl() {
         super.openPageByUrl(pagePath);
