@@ -4,6 +4,7 @@ import BaseEntities.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import services.WaitsService;
 
@@ -37,15 +38,24 @@ public class ActionsTest extends BaseTest {
         WaitsService wait = new WaitsService(driver, Duration.ofSeconds(10));
 
         WebElement fileUploadPath = wait.waitForExists(By.id("file-upload"));
-        String pathToFile = ActionsTest.class.getClassLoader().getResource("download.jpeg").getPath(); // изображение добавляем в ресурсы и меняем имя тут
-        System.out.println(pathToFile);
-        fileUploadPath.sendKeys(pathToFile);
+        fileUploadPath.sendKeys("C:/Users/teren/IdeaProjects/TAF/target/test-classes/123.png");
         wait.waitForExists(By.id("file-submit")).submit();
 
-        Thread.sleep(5000);
+        Assert.assertTrue(wait.waitForExists(By.xpath("//*/h3[text()='File Uploaded!']")).isDisplayed());
+        WebElement nameOfUploadFile = wait.waitForExists(By.id("uploaded-files"));
+        Assert.assertEquals(nameOfUploadFile.getText(), "123.png");
+
     }
 
-}
+    @Test
+    public void contextMenu() {
+        driver.get("http://the-internet.herokuapp.com/upload");
+
+        WaitsService wait = new WaitsService(driver, Duration.ofSeconds(10));
+
+
+
+}}
 
 
 
