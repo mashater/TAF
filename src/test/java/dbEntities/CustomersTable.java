@@ -26,7 +26,7 @@ public class CustomersTable {
         logger.info("Создаем customers таблицу");
 
         String createTableSQL = "CREATE TABLE Customers (" +
-                "ID SERIAL PRIMARY KEY, " +
+                "ID SERIAL PRIMARY KEY, " + //serial - это значит, что значение ставится автоматически
                 "FirstName CHARACTER VARYING(30), " +
                 "LastName CHARACTER VARYING(30), " +
                 "Email CHARACTER VARYING(30), " +
@@ -47,7 +47,13 @@ public class CustomersTable {
     }
 
     public ResultSet getCustomers() {
-        String selectSQL = "SELECT * FROM public.Customers ORDER BY id ASC;";
+        String selectSQL = "SELECT * FROM public.Customers ORDER BY id ASC;"; // сортировка по id
+
+        return dataBaseService.executeQuery(selectSQL);
+    }
+
+    public ResultSet getCustomerById(int id) {
+        String selectSQL = "SELECT * FROM public.Customers WHERE ID =" + id + " ;"; // сортировка по id
 
         return dataBaseService.executeQuery(selectSQL);
     }
