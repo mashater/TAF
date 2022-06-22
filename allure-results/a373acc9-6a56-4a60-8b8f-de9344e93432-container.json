@@ -1,1 +1,0 @@
-{"uuid":"a373acc9-6a56-4a60-8b8f-de9344e93432","name":"Homework_Saucedemo.tearDown","children":["d94a9014-76f4-4821-a04a-74113ca17fab"],"description":"","befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1651838808139,"stop":1651838810504}],"start":1651838808138,"stop":1651838810504}
