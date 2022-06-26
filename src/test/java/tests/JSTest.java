@@ -1,10 +1,8 @@
 package tests;
 
 import BaseEntities.BaseTest;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class JSTest extends BaseTest {
@@ -53,5 +51,27 @@ public class JSTest extends BaseTest {
                 + "dispatchEvent(element, dragEndEvent,dropEvent.dataTransfer);\n" + "}\n" + "\n"
                 + "var source = arguments[0];\n" + "var destination = arguments[1];\n"
                 + "simulateHTML5DragAndDrop(source,destination);", source, destination);
+    }
+
+    @Test
+    public void HWJSTest() throws InterruptedException {
+        driver.get("https://the-internet.herokuapp.com/dynamic_content?with_content=static");
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        WebElement link = driver.findElement(By.linkText("click here"));
+        js.executeScript("arguments[0].click();", link);
+
+        js.executeScript("history.go(0)");
+
+        String s = "https://the-internet.herokuapp.com/javascript_alerts";
+        js.executeScript("window.location = \'"+s+"\'");
+
+
+        js.executeScript("alert('NEW ALERT');");
+        Thread.sleep(2000);
+        Alert alert = driver.switchTo().alert();
+        Assert.assertEquals(alert.getText(), "NEW ALERT");
+        alert.accept();
+
     }
 }
