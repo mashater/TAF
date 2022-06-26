@@ -25,7 +25,7 @@ public class BaseTest {
     protected Project mainProject;
 
     @BeforeTest
-    public void prepareData() throws IOException {
+    public void prepareData() throws IOException { // берем данные из json
         Reader reader = Files.newBufferedReader(Paths.get("projectResult.json"));
         mainProject = new Gson().fromJson(reader, Project.class);
     }

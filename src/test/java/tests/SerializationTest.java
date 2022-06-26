@@ -20,7 +20,7 @@ public class SerializationTest {
         String objectJson = gson.toJson(project);
         System.out.println(objectJson);
 
-        FileWriter file = new FileWriter("projectResult.json");
+        FileWriter file = new FileWriter("projectResult.json"); // запись и сохранение в файл
         gson.toJson(project, file);
         file.close();
 
