@@ -60,15 +60,12 @@ public class JSTest extends BaseTest {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement link = driver.findElement(By.linkText("click here"));
         js.executeScript("arguments[0].click();", link);
-        Thread.sleep(2000);
 
         js.executeScript("history.go(0)");
-        Thread.sleep(2000);
 
         String s = "https://the-internet.herokuapp.com/javascript_alerts";
         js.executeScript("window.location = \'"+s+"\'");
 
-        Thread.sleep(2000);
 
         js.executeScript("alert('NEW ALERT');");
         Thread.sleep(2000);
