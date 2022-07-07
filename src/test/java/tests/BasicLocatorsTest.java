@@ -53,5 +53,6 @@ public class BasicLocatorsTest {
         driver.findElement(By.partialLinkText("your password?")).click();
 
         Thread.sleep(2000);
+
     }
 }
